@@ -1,6 +1,6 @@
 ##Data Dictionary -- GettingCleaningDataProject output file
 
-Suject
+Subject
   Uniquely identifies a test subject with a numerical value
   
 Activity Description
