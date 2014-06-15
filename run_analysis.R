@@ -68,4 +68,4 @@ melted = melt(data=completeData, id=c("Subject", "ActivityDescription"))
 recastData = dcast(melted, Subject + ActivityDescription ~ variable, mean)
 
 ### Output tidy data set, averaged by subject and activity
-print(write.table(recastData, file="output.txt", row.names=F))
+write.table(recastData, file="output.txt", row.names=F)
